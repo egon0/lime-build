@@ -15,3 +15,7 @@ ifeq ($(T),x86)
   OUTDIR:=bin/x86
 endif
 
+ifeq ($(T),brcm2708)
+  ARCH:=brcm2708
+  OUTDIR:=bin/brcm2708
+endif
